@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameMenu"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/gameLogo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY GAME"
+        android:textSize="20sp"
+        android:layout_below="@+id/gameLogo"
+        android:background="@drawable/rounded_buttons"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/play_game"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE YOUR GAME"
+        android:textSize="20sp"
+        android:layout_below="@+id/play_game"
+        android:background="@drawable/rounded_buttons"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/create_game"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOWLOAD GAME"
+        android:textSize="20sp"
+        android:layout_below="@+id/create_game"
+        android:background="@drawable/rounded_buttons"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/download_game"/>
+
+
+
+</RelativeLayout>
